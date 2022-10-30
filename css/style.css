@@ -1,0 +1,264 @@
+.container{
+    background-color:#D19E78
+}
+.name{
+    color:#D6CCC2;
+    font-size:100px;
+    text-align:center;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+.picture{
+    height:400px;
+    border:1px;
+    padding:20px;
+    border:1px color=white solid
+}
+.politicalmapofafrica{
+    color:#D6CCC2;
+    text-align:center;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 200;
+    text-align: center;   
+}
+.memoonrental{
+    color:#D6CCC2;
+    text-align:center;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+.resume{
+height:400px;
+border:1px color=white solid;
+padding:20px;
+font-family:"Trebuchet MS", Helvetica, sans-serif
+}
+
+.email{
+    color:#D6CCC2;
+    height:400px;
+    border:1px color=white solid;
+    padding:20px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif
+}
+.bourdain{
+    padding: 20px;
+    border: 1px;  
+    color:#D6CCC2;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.bordainlandingTEXT{
+    color:#D6CCC2;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    height:400px;
+    border:1px color=white solid;
+    padding:20px
+}
+.bourdainartiststatement{
+    color:#D6CCC2;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    height:400px;
+    border:1px color=white solid;
+    padding:20px 
+}
+.bourdainownpic{
+    padding:20px;
+    border:1px color=white solid   
+}
+.elderlylandingTEXT{
+    color:#D6CCC2;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    height:400px;
+    border:1px color=white solid;
+    padding:20px
+}
+.scrolly{
+    height:400px;
+    border:1px color=white solid;
+    padding:20px
+}
+.policymemolandingTEXT{
+    color:#D6CCC2;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    height:400px;
+    border:1px;
+    padding:20px
+}
+.africalandingTEXT{
+    color:#D6CCC2;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    height:400px;
+    border:1px;
+    padding:20px
+}
+.africa{
+    padding: 20px;
+}
+.elderly{
+    padding: 20px;
+    border: 1px;
+
+}
+.policymemo{
+    padding: 20px;
+}
+.policymemotext{
+    padding: 20px;
+    border: 1px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:#D6CCC2;
+    text-align: center;
+
+}
+.policymemoPIC{
+    padding: 20px;
+    border: 1px;
+
+}
+.africatext{
+    padding: 20px;
+    border: 1px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:#D6CCC2;
+    text-align: center
+}
+.africaFULLPIC{
+    padding: 20px;
+    border: 1px;
+}
+.elderlyTEXT{
+    padding: 20px;
+    border: 1px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:#D6CCC2
+}
+.elderlyFULLPIC{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:#D6CCC2;
+    padding: 20px;
+    border: 1px   
+}
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #863ee3;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ebd122;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #863ee3;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/contour-lines.png");
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: #cccccc;
+    border-width: 1px;
+    width: 100%;
+}
+
+.card:hover {
+    border-color: #ebd122;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Georgia', serif;
+    background-color: #f7f1fa;
+    color: #242424;
+}
