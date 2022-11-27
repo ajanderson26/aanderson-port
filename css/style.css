@@ -134,6 +134,13 @@ font-family:"Trebuchet MS", Helvetica, sans-serif
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color:#D6CCC2
 }
+.wesanderson{
+    color:#D6CCC2;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    height:400px;
+    border:1px color=white solid;
+    padding:20px
+}
 .elderlyFULLPIC{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color:#D6CCC2;
