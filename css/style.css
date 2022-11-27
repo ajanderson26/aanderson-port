@@ -141,11 +141,18 @@ font-family:"Trebuchet MS", Helvetica, sans-serif
     border:1px color=white solid;
     padding:20px
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 .elderlyFULLPIC{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color:#D6CCC2;
     padding: 20px;
     border: 1px   
+
 }
 /***** NAVBAR *****/
 
