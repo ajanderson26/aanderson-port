@@ -154,6 +154,12 @@ font-family:"Trebuchet MS", Helvetica, sans-serif
     border: 1px   
 
 }
+.pinkmaplandingtext{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:#D6CCC2;
+    padding: 20px;
+    border: 1px     
+}
 /***** NAVBAR *****/
 
 .navbar {
