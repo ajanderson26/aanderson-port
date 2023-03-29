@@ -1,26 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="container">
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #CCC5B9">
+     <!-- Create the navbar -->
+     <nav class="navbar navbar-expand-lg navbar-default">
+        <!-- Container inside the navbar header to span the page -->
+        <div class="container-fluid">
+            <!-- Creates the navbar header -->
+            <a class="navbar-brand" href="index.html">Annika Anderson</a>
+            <!-- This complex script is just for a hamburger button, which will appear on smaller screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
+                <span class="menu"> Menu</span>
+            </button>
+            <!-- Links to include in navbar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Unordered list for links on navbar -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div> <!-- end .navbar-collapse -->
+        </div> <!-- end .container-fluid -->
+    </nav> <!-- end navigation bar -->  
+    <div class="container">
+        <div class="row">
+            <div class="title col-12">
+                <h1 class="name">ANNIKA ANDERSON</h1>
+
+                <body style="background-color:#CCC5B9;">
+                
+                </body>
+            </div>
+            <hr>
+
             <div class="row">
-                <div class="title col-12">
-                    <h1 class="name">ANNIKA ANDERSON</h1>
-                    <body style="background-color:#D19E78;">
-                    </body>
-                </div>
-                <hr>
-        
-                <div class="row">
-                    <div class="elderlyTEXT col-md-12">
-                        <div class="text-center">
-                            <h2>If Wes Anderson was a Basemap</h2>
-                            <p>If Wes Anderson was a Basemap is the result of a mapping project that focused on map aesthetics. I created a basemap in Mapbox Studio that follows the aesthetic of my two favorite Wes Anderson movies, Moonrise Kingdom and Grand Budapest Hotel. This basemap most closely aligns with an art deco pastiche in terms of its similarities in form, color, texture and type. In regards to form, my map includes louder and quirky icons for road networks and places of interest. A vintage key is used to show all places of interest. The key has a more geometric shape and regular curves which acts to enhance the art deco design. The map is designed so that as you zoom in closer to a location these icons appear to better describe local geographies and not overwhelm the map with too many entities that could end up being distracting. It is also important to note that the icons do not change depending on location but only scale to bring unity to map. Color is also a major part of the design.  Color is used the most to convey the aesthetic. The map represents art deco pastiche in that there are large blocks of color that go uninterrupted. For example, the stark difference in blue and pink between land and water respectively. I also use saturation with zoom effects. As the user zooms in, all colors gain a heavier saturation in order to put emphasis on local geographies. In terms of texture, the contrast of the smooth land texture and the scratchy or grainy texture of the water juxtaposes the expected texture of water which is smooth and soft with what it is portrayed as in the map as a scratchy/grainy texture. In Wes Anderson movies, you should expect the unexpected which is why I used texture in this way. Also, texture does not vary across scale or location. Finally, the map follows the typical typography of the art deco pastiche. Typography varies at different scales as countries, continents, and states have a different typeface than cities and towns but does not vary across location. Futura is one of the most popular typefaces of the art deco pastiche which is why a variation of it is used on my map. Furthermore, Futura pairs beautifully with a more opulent typeface called Andara that is used for state, country, and continent labels. It has a very organic, handwritten form which is not typical of art deco but is very lavish which is why it is used here. This typeface is also used because it is a very similar pairing of fonts found in another one of my favorite Wes Anderson movies called Moonrise Kingdom where very similar typefaces are used in the opening and closing credits. Click the picture below to explore the full map!</p>
-                        </div>
-                        <div class="row">
-                        <div class="scrolly col-md-12">
-                    <div> <a href="https://ajanderson26.github.io/lab3_map/"> <img src="assets/wespic.png" class="center"></a>
+                <div class="elderlyTEXT col-md-12">
+                    <div class="text-center">
+                        <h2>If Wes Anderson was a Basemap</h2>
+                        <p>If Wes Anderson was a Basemap is the result of a mapping project that focused on map
+                            aesthetics. I created a basemap in Mapbox Studio that follows the aesthetic of my two
+                            favorite Wes Anderson movies, Moonrise Kingdom and Grand Budapest Hotel. This basemap most
+                            closely aligns with an art deco pastiche in terms of its similarities in form, color,
+                            texture and type. In regards to form, my map includes louder and quirky icons for road
+                            networks and places of interest. A vintage key is used to show all places of interest. The
+                            key has a more geometric shape and regular curves which acts to enhance the art deco design.
+                            The map is designed so that as you zoom in closer to a location these icons appear to better
+                            describe local geographies and not overwhelm the map with too many entities that could end
+                            up being distracting. It is also important to note that the icons do not change depending on
+                            location but only scale to bring unity to map. Color is also a major part of the design.
+                            Color is used the most to convey the aesthetic. The map represents art deco pastiche in that
+                            there are large blocks of color that go uninterrupted. For example, the stark difference in
+                            blue and pink between land and water respectively. I also use saturation with zoom effects.
+                            As the user zooms in, all colors gain a heavier saturation in order to put emphasis on local
+                            geographies. In terms of texture, the contrast of the smooth land texture and the scratchy
+                            or grainy texture of the water juxtaposes the expected texture of water which is smooth and
+                            soft with what it is portrayed as in the map as a scratchy/grainy texture. In Wes Anderson
+                            movies, you should expect the unexpected which is why I used texture in this way. Also,
+                            texture does not vary across scale or location. Finally, the map follows the typical
+                            typography of the art deco pastiche. Typography varies at different scales as countries,
+                            continents, and states have a different typeface than cities and towns but does not vary
+                            across location. Futura is one of the most popular typefaces of the art deco pastiche which
+                            is why a variation of it is used on my map. Furthermore, Futura pairs beautifully with a
+                            more opulent typeface called Andara that is used for state, country, and continent labels.
+                            It has a very organic, handwritten form which is not typical of art deco but is very lavish
+                            which is why it is used here. This typeface is also used because it is a very similar
+                            pairing of fonts found in another one of my favorite Wes Anderson movies called Moonrise
+                            Kingdom where very similar typefaces are used in the opening and closing credits. Click the
+                            picture below to explore the full map!</p>
                     </div>
+                    <div class="row">
+                        <div class="scrolly col-md-12">
+                            <div> <a href="https://ajanderson26.github.io/lab3_map/"> <img src="assets/wespic.png"
+                                        class="center"></a>
+                            </div>
