@@ -1,5 +1,6 @@
 .container{
-    background-color: #CCC5B9
+    background-color: #CCC5B9;
+    padding: 10px
 }
 .name{
     color: #4E878C;
@@ -9,6 +10,10 @@
     font-weight: 200;
     text-align: center;
     background-color: #CCC5B9;
+}
+.menu1{
+    height: 800px;
+    width: 1300px;
 }
 .picture{
     height:400px;
@@ -20,7 +25,8 @@
 }
 .index-img{
     width: 100%;
-    padding:20px;
+    height: 100%;
+    padding:30px;
     border:1px;
 }
 .politicalmapofafrica{
@@ -246,12 +252,15 @@ background-color: #CCC5B9;
     background-color:#4E878C;
     border-color: white;
     border-width: 5px;
-    width: 100%;
+    width: 350px;
+    height: 450px;
     color: white ;
+    
 }
 
 .card:hover {
     border-color: #4E878C;
+    transform: rotate(3deg);
 }
 
 /*** Basic Text Styles ***/
@@ -283,7 +292,7 @@ a:hover {
 }
 
 .container{
-    padding:25px 0;
+    padding: 100px 0;
 }
 .abouttext{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
