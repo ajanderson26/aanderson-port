@@ -26,7 +26,7 @@
 .index-img{
     width: 100%;
     height: 100%;
-    padding:30px;
+    padding: 30px;
     border:1px;
 }
 .politicalmapofafrica{
@@ -253,7 +253,7 @@ background-color: #CCC5B9;
     border-color: white;
     border-width: 5px;
     width: 350px;
-    height: 450px;
+    height: 390px;
     color: white ;
     
 }
@@ -261,6 +261,9 @@ background-color: #CCC5B9;
 .card:hover {
     border-color: #4E878C;
     transform: rotate(3deg);
+}
+.card-title{
+    font-size: large;
 }
 
 /*** Basic Text Styles ***/
