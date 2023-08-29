@@ -11,6 +11,11 @@
     text-align: center;
     background-color: #CCC5B9;
 }
+.headshot{
+    height: 450px;
+    width: 300px;
+    margin-top: 10px;
+}
 .menu1{
     height: 800px;
     width: 1300px;
@@ -256,7 +261,6 @@ background-color: #CCC5B9;
     height: 390px;
     color: white;
     margin-top: 20px;
-    
 }
 
 .card:hover {
@@ -301,7 +305,7 @@ a:hover {
 .abouttext{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #4E878C;
-    padding: 20px;
+    padding: 5px;
     border: 1px;
     text-align: center;
 }
