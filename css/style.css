@@ -2,6 +2,9 @@
     background-color: #CCC5B9;
     padding: 10px
 }
+.linked_resume{
+text-align: left;
+}
 .name{
     color: #4E878C;
     font-size:100px;
@@ -309,6 +312,8 @@ a:hover {
     border: 1px;
     text-align: center;
 }
+
+
 .a {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #4E878C;
